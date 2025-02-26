@@ -3,8 +3,8 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'generated/l10n.dart';
 
-class AppointmentApp extends StatelessWidget {
-  const AppointmentApp({super.key});
+class DocDoc extends StatelessWidget {
+  const DocDoc({super.key});
 
   @override
   Widget build(BuildContext context) {
