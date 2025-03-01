@@ -17,6 +17,7 @@ class DocDoc extends StatelessWidget {
       designSize: const Size(375, 812),
       minTextAdapt: true,
       child: MaterialApp(
+        //locale: Locale('ar'),
         theme: ThemeData(
           primaryColor: ColorManager.mainBlue,
           scaffoldBackgroundColor: Colors.white,

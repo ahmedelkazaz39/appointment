@@ -21,6 +21,9 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-
+    "docDoc" : MessageLookupByLibrary.simpleMessage("دوك دوك "),
+    "getStarted" : MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
+    "onboardingDescription" : MessageLookupByLibrary.simpleMessage("قم بإدارة وجدولة جميع مواعيدك الطبية بسهولة مع Docdoc للحصول على تجربة جديدة."),
+    "onboardingTextDoctor" : MessageLookupByLibrary.simpleMessage("أفضل تطبيق\n لحجز مواعيد الأطباء")
   };
 }
