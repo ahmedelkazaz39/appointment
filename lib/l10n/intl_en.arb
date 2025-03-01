@@ -1,1 +1,6 @@
-{}
+{
+    "docDoc": "DocDoc",
+    "onboardingTextDoctor": "Best Doctor\nAppointment App",
+    "onboardingDescription": "Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.",
+    "getStarted": "Get started"
+}

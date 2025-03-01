@@ -47,7 +47,45 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `DocDoc`
+  String get docDoc {
+    return Intl.message(
+      'DocDoc',
+      name: 'docDoc',
+      desc: '',
+      args: [],
+    );
+  }
 
+  /// `Best Doctor\nAppointment App`
+  String get onboardingTextDoctor {
+    return Intl.message(
+      'Best Doctor\nAppointment App',
+      name: 'onboardingTextDoctor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.`
+  String get onboardingDescription {
+    return Intl.message(
+      'Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.',
+      name: 'onboardingDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get started`
+  String get getStarted {
+    return Intl.message(
+      'Get started',
+      name: 'getStarted',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
